@@ -1,0 +1,74 @@
+# ===============================
+# 🔥 Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# 🔥 Environment Variables
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# 🔥 Jupyter / Notebooks
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# 🔥 Logs & Temp Files
+# ===============================
+*.log
+logs/
+tmp/
+temp/
+
+# ===============================
+# 🔥 OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# 🔥 VS Code / Codespaces
+# ===============================
+.vscode/
+.history/
+
+# ===============================
+# 🔥 AI / RAG Models & Data
+# (avoid pushing heavy models)
+# ===============================
+models/
+checkpoints/
+embeddings/
+vector_store/
+chromadb/
+*.bin
+*.pt
+*.onnx
+
+# ===============================
+# 🔥 Node (if mixed project)
+# ===============================
+node_modules/
+.next/
+dist/
+build/
+
+# ===============================
+# 🔥 Cache
+# ===============================
+.cache/
+pytest_cache/
+.mypy_cache/
